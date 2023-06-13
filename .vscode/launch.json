@@ -5,13 +5,12 @@
     "version": "0.2.0",
     "compounds": [],
     "configurations": [
+        
         {
             "type": "python",
             "justMyCode": false,
             "request": "launch",
             "name": "VehicleApp",
-            "program": "${workspaceFolder}/app/src/main.py",
-            "console": "integratedTerminal",
             "preLaunchTask": "dapr-sidecar-start",
             "postDebugTask": "dapr-sidecar-stop",
             "env": {
